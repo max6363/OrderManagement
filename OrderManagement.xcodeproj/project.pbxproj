@@ -13,6 +13,9 @@
 		88E0044E2753DB6100B97249 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 88E0044D2753DB6100B97249 /* Preview Assets.xcassets */; };
 		88E004502753DB6100B97249 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88E0044F2753DB6100B97249 /* Persistence.swift */; };
 		88E004532753DB6100B97249 /* OrderManagement.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 88E004512753DB6100B97249 /* OrderManagement.xcdatamodeld */; };
+		88E0045B2753DD6500B97249 /* Order+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88E004592753DD6500B97249 /* Order+CoreDataClass.swift */; };
+		88E0045C2753DD6500B97249 /* Order+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88E0045A2753DD6500B97249 /* Order+CoreDataProperties.swift */; };
+		88E0045E2753DE5300B97249 /* OrderSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88E0045D2753DE5300B97249 /* OrderSheet.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,6 +26,9 @@
 		88E0044D2753DB6100B97249 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		88E0044F2753DB6100B97249 /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
 		88E004522753DB6100B97249 /* OrderManagement.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = OrderManagement.xcdatamodel; sourceTree = "<group>"; };
+		88E004592753DD6500B97249 /* Order+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "Order+CoreDataClass.swift"; path = "OrderManagement/Order+CoreDataClass.swift"; sourceTree = "<group>"; };
+		88E0045A2753DD6500B97249 /* Order+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "Order+CoreDataProperties.swift"; path = "OrderManagement/Order+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		88E0045D2753DE5300B97249 /* OrderSheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderSheet.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -39,6 +45,8 @@
 		88E0043A2753DB6000B97249 = {
 			isa = PBXGroup;
 			children = (
+				88E004592753DD6500B97249 /* Order+CoreDataClass.swift */,
+				88E0045A2753DD6500B97249 /* Order+CoreDataProperties.swift */,
 				88E004452753DB6000B97249 /* OrderManagement */,
 				88E004442753DB6000B97249 /* Products */,
 			);
@@ -57,6 +65,7 @@
 			children = (
 				88E004462753DB6000B97249 /* OrderManagementApp.swift */,
 				88E004482753DB6000B97249 /* ContentView.swift */,
+				88E0045D2753DE5300B97249 /* OrderSheet.swift */,
 				88E0044A2753DB6100B97249 /* Assets.xcassets */,
 				88E0044F2753DB6100B97249 /* Persistence.swift */,
 				88E004512753DB6100B97249 /* OrderManagement.xcdatamodeld */,
@@ -143,9 +152,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				88E0045C2753DD6500B97249 /* Order+CoreDataProperties.swift in Sources */,
 				88E004502753DB6100B97249 /* Persistence.swift in Sources */,
 				88E004532753DB6100B97249 /* OrderManagement.xcdatamodeld in Sources */,
 				88E004492753DB6000B97249 /* ContentView.swift in Sources */,
+				88E0045B2753DD6500B97249 /* Order+CoreDataClass.swift in Sources */,
+				88E0045E2753DE5300B97249 /* OrderSheet.swift in Sources */,
 				88E004472753DB6000B97249 /* OrderManagementApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
